@@ -1,2 +1,2 @@
 # CESAE Viagens
-Website desenvolvido para resolver os seus percausos no planeamento de viagem.
+Website desenvolvido com o propósito de resolver contratempos no planeamento de uma viagem.
