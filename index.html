@@ -12,38 +12,44 @@
 </head>
 
 <body>
-
-    <!-- Barra de navegação -->
+    <!-- Barra de Navegação -->
     <header>
-        <nav class="navbar navbar-expand bg-dark" data-bs-theme="dark">
-            <div class="container flex-wrap gap-2">
-                <a class="navbar-brand fw-bold fs-6">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold ">
                     <i class="bi bi-airplane me-1"></i>
-                    <span class="d-none d-sm-inline">CESAE Viagens</span>
+                    CESAE Viagens
                 </a>
-                <ul class="navbar-nav me-auto small">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">Início</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Destinos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Porto</a></li>
-                            <li><a class="dropdown-item" href="#">Lisboa</a></li>
-                            <li><a class="dropdown-item" href="#">Faro</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#plan">Planos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#question">Perguntas</a>
-                    </li>
-                </ul>
-                <a href="#" class="btn btn-warning btn-sm">Reservar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Porto</a></li>
+                                <li><a class="dropdown-item" href="#">Lisboa</a></li>
+                                <li><a class="dropdown-item" href="#">Faro</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#plan">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#question">Perguntas</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-warning">Reservar</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -56,7 +62,7 @@
                 <a href="#destination" class="btn btn-outline-light px-3">Ver destinos</a>
             </div>
         </section>
-       
+
         <!-- Porquê a CESAE Viagens? -->
         <section class="container text-center py-5">
             <h2>Porquê a CESAE Viagens?</h2>
@@ -88,7 +94,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Destinos em destaque -->
         <section class="bg-body-tertiary py-5" id="destination">
             <h2 class="text-center mb-4">Destinos em destaque</h2>
@@ -144,7 +150,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Planos -->
         <section class="container py-5" id="plan">
             <h2 class="text-center mb-5">Os nossos planos</h2>
@@ -198,7 +204,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Perguntas frequentes -->
         <section class="bg-body-tertiary py-5" id="question">
             <div class="container">
@@ -253,7 +259,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Contacto -->
         <section class="container py-5" id="contact">
             <h2 class="text-center mb-4">Peça uma proposta</h2>
@@ -299,7 +305,7 @@
             </div>
         </section>
     </main>
-    
+
     <!-- Rodapé -->
     <footer class="bg-dark text-light p-3 small">
         <div class="container py-4">
